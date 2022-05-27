@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    border: 5px solid #57533C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#8F838E;
+    height: 100px   ;
+}
+
+#pesquisa{
+    border: 3px solid #969068;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+#bt_pesquisar{
+    border: 3px solid #969068;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color:#A69890;
+}
+#bt_pesquisar:hover{
+    background-color: #57533C;
+    border:2px solid yellow;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
