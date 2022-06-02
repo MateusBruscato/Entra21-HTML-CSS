@@ -2,17 +2,25 @@
     <head>
         <title>Exemplo layout padrão</title>
         <link href="./layout.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     </head>
         <body>
            <header>
-               <div><img src="./cafe.jpg" height="75px" width="75px" alt="Logo do café" title="Logo do café"></div>
+               <div><span class="material-symbols-outlined">
+                toggle_on
+                </span>
+            </div>
+               <!-- <div><img src="./cafe.jpg" height="75px" width="75px" alt="Logo do café" title="Logo do café"></div> -->
                <div>
                    <form action=""> 
                     <input id="pesquisa" type="text" placeholder="O que você procura?">
                     <input id="bt_pesquisar" type="button" value="Pesquisar" title="Botão de pesquisa">
                    </form>
                 </div>
-               <div>Configurações</div>
+               <div id="config">
+                   <span class="material-symbols-outlined"> settings </span>
+                    Configurações
+                </div>
            </header> 
         </body>
 </html>

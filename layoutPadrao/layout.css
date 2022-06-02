@@ -36,3 +36,12 @@ img{
     border: 2px solid black;
     border-radius: 10px;
 }
+
+#config{
+    display: flex;
+    height: 30px;
+    width: 150px;
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+}
