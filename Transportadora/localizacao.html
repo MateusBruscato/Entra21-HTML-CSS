@@ -30,7 +30,7 @@
 
     <nav class="home">
             <ul>
-                    <li class="active">
+                    <li>
                         <a href="index.html"  title="Página Inicial"> Home </a>
                     </li>
                     <li>
@@ -39,101 +39,33 @@
                     <li>
                         <a href="servicos.html" title="Serviços"> Serviços </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="localizacao.html" title="Localização"> Localização </a>
                     </li>
             </ul>
     </nav>
-    <main>
-        <section class="sectionMain">
-            <article>
-                <h1>
-                    <span class="material-symbols-outlined"> local_shipping </span>
-                    Caminhões
-                </h1>
-                <p>
-                    Contamos com uma frota de Caminhões modernos
-                    (VUC, TOCO, TRUCK, Cavalo mecânico e cavalo
-                    mecânico trucado, Carretas de 2 e 3 eixos e
-                    Bitrem aberto e fechado)
-                </p>
-            </article>
-            
-            <footer>
-                <a href="#" class="botao saiba_mais_caminhoes">
-                    Saiba mais >
-                </a>
-            </footer>
-        </section>
-        <section class="sectionMain">
-            <article>
-                <h1>
-                    <span class="material-symbols-outlined"> add_location </span>
-                    Rastreamento
-                </h1>
-                <p>
-                    Todas as mercadorias são marcadas com um código
-                    de barras, assim você tem total controle. Já identificamos
-                    a mercadoria na entrada, assim você acompanha desde o início
-                    a hora da entrega.
-                </p>
-            </article>
-            
-            <footer>
-                <a href="#" class="botao saiba_mais_rastreamento">
-                    Saiba mais >
-                </a>
-            </footer>
-        </section>
-        <section class="sectionMain">
-            <article>
-                <h1>
-                    <span class="material-symbols-outlined"> smartphone </span>
-                    Smartphone
-                </h1>
-                <p>
-                    Baixe o aplicativo e visualize onde sua mercadoria está
-                    em tempo real. Disponível para Windows Phone,
-                    Android e Iphone.
-                </p>
-            </article>
-            
-            <footer>
-                <a href="#" class="botao saiba_mais_smartphone">
-                    Saiba mais >
-                </a>
-            </footer>
-        </section>
-    </main>
-    <section id="sectionCliente">
-        <h1>Conheça alguns de nossos clientes</h1>
-        <div id="conteudoCliente">
-            <article> 
-                <figure>
-                    <img src="./happyCostm.PNG" alt="Cliente satisfeito">
-                </figure>
-                <p>
-                    "Mandaram eu dizer que é boa essa transportadora."
-                </p>
-            </article>
-            <article> 
-                <figure>
-                    <img src="./happyCostm2.PNG" alt="Cliente satisfeito">
-                </figure>
-                <p>
-                    "Comprei essa maçã. Chegou mó boa. Recomendo!"
-                </p>
-            </article>
-            <article>
-                <figure>
-                    <img src="./happyCostm3.PNG" alt="Cliente satisfeito">
-                </figure>
-                <p>
-                    "Muito bom! Nota 0!"
-                </p> 
-            </article>
+    <main class="main_localizacao">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.9362693320604!2d-48.54667960849314!3d-27.603250567496083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273831874b03cf%3A0x738d23b15d5cc78b!2sFaculdade%20Senac%20Florian%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1658792168811!5m2!1spt-BR!2sbr" width="500" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="texto_localizacao">
+            <h3>MATRIZ</h3>
+            <p> Nossa matriz está localizada no bairro da Prainha em Florianópolis, entre o Sesc e a Faculdade Senac.
+                Esta unidade contém nosso laboratório de logística, onde estudamos as melhores maneiras para cada vez melhores
+                atendê-los.
+                Venha nos visitar nesta unidade ou confira abaixo a unidade mais próxima de você:
+            </p>
+            <select class="select_unidades" name="select">
+                <option disabled selected>Escolha uma unidade...</option>
+                <option>Unidade Biguaçu</option>
+                <option>Unidade Chapecó</option>
+                <option>Unidade Timbó</option>
+                <option>Unidade Curitiba</option>
+                <option>Unidade Porto Alegre</option>
+                <option>Unidade Não me toque</option>
+                <option>Unidade Cascavel</option>
+            </select>
         </div>
-    </section>
+    </main>
+    
         <div id="containerrodape">
             <footer id="rodape">
                 <nav id="rodape_nav">
